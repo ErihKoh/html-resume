@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 50px auto;
+  background: #fff;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  width: 275px;
+  padding: 50px;
+  background: #1e2939;
+}
+
+.my-photo {
+  border-radius: 50%;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contacts-item > a {
+  margin-left: 10px;
+  color: #c2c5c9;
+}
+
+.contacts-item > a:hover,
+.contacts-item > a:hover {
+  color: #ff6b08;
+}
+
+.skills {
+  margin-left: 15px;
+  color: #ff6b08;
+}
+
+.skills span {
+  color: #c2c5c9;
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.sidebar-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.aboutme-container {
+  padding: 90px;
+}
+
+.prof-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.name-title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.discription {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.section-title {
+  margin-bottom: 15px;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.second-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+}
+
+.third-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+}
